@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AAB2C91C9A4A24007AE732 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AAB2C81C9A4A24007AE732 /* MyTableViewCell.m */; };
 		280B1A9E1C9A3EC100E07082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280B1A9D1C9A3EC100E07082 /* main.m */; };
 		280B1AA11C9A3EC100E07082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280B1AA01C9A3EC100E07082 /* AppDelegate.m */; };
 		280B1AA41C9A3EC100E07082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280B1AA31C9A3EC100E07082 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09AAB2C71C9A4A24007AE732 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		09AAB2C81C9A4A24007AE732 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		280B1A991C9A3EC100E07082 /* TestGitHubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitHubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		280B1A9D1C9A3EC100E07082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		280B1A9F1C9A3EC100E07082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				280B1AA31C9A3EC100E07082 /* ViewController.m */,
 				280B1AB31C9A44CE00E07082 /* TestViewController.h */,
 				280B1AB41C9A44CE00E07082 /* TestViewController.m */,
+				09AAB2C71C9A4A24007AE732 /* MyTableViewCell.h */,
+				09AAB2C81C9A4A24007AE732 /* MyTableViewCell.m */,
 				280B1AA51C9A3EC100E07082 /* Main.storyboard */,
 				280B1AA81C9A3EC100E07082 /* Assets.xcassets */,
 				280B1AAA1C9A3EC100E07082 /* LaunchScreen.storyboard */,
@@ -159,6 +164,7 @@
 				280B1AA11C9A3EC100E07082 /* AppDelegate.m in Sources */,
 				280B1AB51C9A44CE00E07082 /* TestViewController.m in Sources */,
 				280B1A9E1C9A3EC100E07082 /* main.m in Sources */,
+				09AAB2C91C9A4A24007AE732 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +311,7 @@
 				280B1AB21C9A3EC100E07082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
