@@ -13,6 +13,7 @@
 		280B1AA71C9A3EC100E07082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280B1AA51C9A3EC100E07082 /* Main.storyboard */; };
 		280B1AA91C9A3EC100E07082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280B1AA81C9A3EC100E07082 /* Assets.xcassets */; };
 		280B1AAC1C9A3EC100E07082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280B1AAA1C9A3EC100E07082 /* LaunchScreen.storyboard */; };
+		280B1AB51C9A44CE00E07082 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280B1AB41C9A44CE00E07082 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		280B1AA81C9A3EC100E07082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280B1AAB1C9A3EC100E07082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280B1AAD1C9A3EC100E07082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280B1AB31C9A44CE00E07082 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		280B1AB41C9A44CE00E07082 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				280B1AA01C9A3EC100E07082 /* AppDelegate.m */,
 				280B1AA21C9A3EC100E07082 /* ViewController.h */,
 				280B1AA31C9A3EC100E07082 /* ViewController.m */,
+				280B1AB31C9A44CE00E07082 /* TestViewController.h */,
+				280B1AB41C9A44CE00E07082 /* TestViewController.m */,
 				280B1AA51C9A3EC100E07082 /* Main.storyboard */,
 				280B1AA81C9A3EC100E07082 /* Assets.xcassets */,
 				280B1AAA1C9A3EC100E07082 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				280B1AA41C9A3EC100E07082 /* ViewController.m in Sources */,
 				280B1AA11C9A3EC100E07082 /* AppDelegate.m in Sources */,
+				280B1AB51C9A44CE00E07082 /* TestViewController.m in Sources */,
 				280B1A9E1C9A3EC100E07082 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
